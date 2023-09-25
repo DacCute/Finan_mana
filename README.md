@@ -1,1 +1,0 @@
-# Finalcial management app
