@@ -5,6 +5,9 @@ import sys
 from openpyxl import *
 import subprocess
 
+# file address
+file_path = "./Data.xlsx"
+
 # &Instruction function
 def Instruction():
     print("""
@@ -30,10 +33,9 @@ def AddTrans():
     print('dob')
 
 def AddAccessHistory():
-    subprocess.run(["python", "D:\Bill\Calculation\AddAccessHistory.py"])
+    subprocess.run(["python", "./AddAccessHistory.py"])
 
-# ^file address
-file_path = "D:\Bill\Calculation\Data.xlsx"
+
 
 # ^import file
 tran = pd.read_excel(file_path,
