@@ -4,6 +4,7 @@ import datetime
 import sys
 from openpyxl import *
 import subprocess
+from AddAccessHistory import *
 
 # file address
 file_path = "./Data.xlsx"
@@ -63,7 +64,8 @@ while True:
     else:
         count +=1
 
-GetTime
+GetTime()
+
 print('--------------------------------------------',
       '\nEND TASK AT:  ',current_time,
       '\n\n  ', count, 'task have done\n',

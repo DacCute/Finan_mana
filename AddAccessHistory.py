@@ -1,8 +1,6 @@
-import datetime
-import pandas as pd
-import numpy as np
+def addTrans():
+    
 
-a = 'awdawdaw'
-np.savetxt(r'D:\Bill\np.txt', a, fmt='%s')
-
+def show():
+    print('This is the transaction')
  

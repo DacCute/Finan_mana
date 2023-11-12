@@ -12,3 +12,7 @@ This program will run on `cmd`
 
 ![](./Illustration/Welcome_IF.png)
 
+## Database
+
+`Database` using is a excel file
+
